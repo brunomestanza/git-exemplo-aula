@@ -1,1 +1,1 @@
-console.log("Versão inicial");
+console.log('Feature B implementada');
