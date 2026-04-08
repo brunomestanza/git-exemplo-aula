@@ -1,1 +1,1 @@
-console.log('Feature C implementada');
+console.log('Feature C alteração');
