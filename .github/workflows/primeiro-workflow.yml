@@ -5,10 +5,18 @@ on:
     branches:
       - main
 
-permissions:
-  contents: read
-
 jobs:
+  notify-discord:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Mandar mensagem no Discord
+      run: |
+        curl -H "Content-Type: application/json" \
+        -X POST \
+        -d '{"content": "Build finalizada com sucesso 🚀"}' \
+        ${{ secrets.DISCORD_WEBHOOK }}
+
   hello-job:
     runs-on: ubuntu-latest
 
