@@ -21,3 +21,7 @@ De acordo com o arquivo `conteudo.md`, este projeto:
 ## Objetivo
 
 Servir como base de exemplo para praticar comandos, versionamento e fluxo de trabalho com Git/GitHub.
+
+## Responsável pelo conteúdo
+
+[@brunomestanza](https://github.com/brunomestanza) — Bruno Mestanza é o responsável pelo conteúdo deste repositório.
